@@ -5,11 +5,11 @@ h1{
 }
 
 h3{
-	color: blue;
+	color: #1ABC9C  ;
 	font-size: 30px;
 	text-align: center;
 	line-height: 1px;
-	border-style:dotted, blue;
+	border-style:dotted,#1ABC9C ;
 	padding-bottom: 30px;
 
 }
@@ -17,6 +17,7 @@ h3{
 p{
 	font-size: 40px;
 	color:white;
+	margin:#F4F6F6;
 }
 
 
@@ -39,7 +40,7 @@ p{
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-  border: 5px dotted blue;
+  border: 5px dotted #1ABC9C ;
  
 }
 
@@ -71,43 +72,50 @@ p{
 
 
 .flip-card-back {
-  background-color: blue;
+  background-color: #1ABC9C ;
   color: white;
   transform: rotateY(180deg);
 }
 
 body {
-  background-color: white;
+  background-color: #F4F6F6;
+  margin: #F4F6F6;
+  border-color: #F4F6F6;
 }
 
 img{ 
 	padding-left: 500px; 
 	padding-bottom:50px;
 	border: 1px;
-	border-color:blue;
+	border-color:#1ABC9C;
 }
 
 .question-container2 {
   color: black;
-  margin: 2px;
+  margin: 2px,#1ABC9C;
+  border-color:#1ABC9C ;
   padding: 1px;
   font-feature-settings: initial;
   font-size: 24px;
   padding-left: 10px;
   padding-right: 10px;
+  background: #F4F6F6; 
 }
+
+
 span {
 	font-family: serif;
 	text-shadow: 10px;
 	padding-bottom: 30px;
 }
+
 .question2{
 	color: black;
 	line-height:1.5;
 	padding-top:15px;
 }
 .answer2{
-	color: blue;
+	color: #1ABC9C ;
 	padding-left:10px;
 	padding-bottom:30px;
 	text-align: right; 
@@ -123,7 +131,45 @@ span {
 }
 
 .name2{
-	color: blue;
+	color: #1ABC9C ;
+	font-family:Georgia, serif ;
+	font-variant: : "normal", "two";
+	padding-top: 10px;
+
+}
+
+.question-container {
+  background-color:#1ABC9C ;
+  padding: 10px;
+  font-feature-settings: initial;
+  font-family: monospace;
+  font-size:30px;
+
+}
+
+.question4{
+	color: black;
+	line-height:1.5;
+	padding-top:15px;
+}
+.answer3{
+	color: #E8F8F5 ;
+	padding-left:10px;
+	padding-bottom:30px;
+	text-align: right; 
+	font-kerning:none;
+}
+.name4{
+	color: black;
+	font-family: Georgia, serif ;
+	font-stretch: semi-expanded;
+    font-variant: : "normal", "two";
+
+
+}
+
+.name3{
+	color: #E8F8F5  ;
 	font-family:Georgia, serif ;
 	font-variant: : "normal", "two";
 	padding-top: 10px;
